@@ -1,0 +1,62 @@
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environment
+# ==============================
+.venv/
+venv/
+ENV/
+env/
+
+# ==============================
+# PyCharm / JetBrains
+# ==============================
+.idea/
+
+# ==============================
+# Distribution / build files
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Testing / coverage (if used later)
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# OS generated files (Windows)
+# ==============================
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# MacOS system files (just in case)
+# ==============================
+.DS_Store
+
+# ==============================
+# pygame / game dev optional
+# ==============================
+# Uncomment if you don't want assets tracked
+# assets/sounds/
+# assets/images/
+# assets/fonts/
+
+# If you generate save files or data files
+# saves/
+# data/
