@@ -17,6 +17,8 @@ env/
 # PyCharm / JetBrains
 # ==============================
 .idea/
+*.xml/
+*.iml/
 
 # ==============================
 # Distribution / build files
