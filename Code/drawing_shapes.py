@@ -12,6 +12,13 @@ pygame.draw.line(screen, #surface
                  (400,400), #end position
                  5 #width
                  )
+
+pygame.draw.lines(screen,
+                  "orange",
+                  False,
+                  [(100,100),(200,50),(300,100)],
+                  4)
+
 done = True
 while done:
     for event in pygame.event.get():
