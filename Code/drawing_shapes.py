@@ -35,6 +35,11 @@ pygame.draw.ellipse(screen,
                     (300,100,100,50),
                     5)
 
+pygame.draw.polygon(screen,
+                    "blue",
+                    [(100,300),(150,200),(200,300)],
+                    4)
+
 done = True
 while done:
     for event in pygame.event.get():
