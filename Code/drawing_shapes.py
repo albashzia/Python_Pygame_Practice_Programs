@@ -24,6 +24,11 @@ pygame.draw.rect(screen,
                  (50,50,100,100),
                  7)
 
+pygame.draw.circle(screen,
+                   "green",
+                   (200,200),
+                   30,
+                   4)
 done = True
 while done:
     for event in pygame.event.get():
