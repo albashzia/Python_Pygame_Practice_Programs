@@ -29,6 +29,12 @@ pygame.draw.circle(screen,
                    (200,200),
                    30,
                    4)
+
+pygame.draw.ellipse(screen,
+                    "purple",
+                    (300,100,100,50),
+                    5)
+
 done = True
 while done:
     for event in pygame.event.get():
