@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59541354-4200-4d14-8aac-6f1df82b4656" name="Changes" comment="Initializing a pygame environment and defining a display">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Pygame_Practice_Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Pygame_Practice_Programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="59541354-4200-4d14-8aac-6f1df82b4656" name="Changes" comment="Drawing a line on the surface using draw.line() function with parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.drawing_shapes.executor": "Run",
     "Python.game_loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -107,7 +106,47 @@
       <option name="project" value="LOCAL" />
       <updated>1779606616387</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Defining a loop to make the surface visible on the screen and exit on Quit">
+      <option name="closed" value="true" />
+      <created>1779606969484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779606969484</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commiting unversioned files">
+      <option name="closed" value="true" />
+      <created>1779606983393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779606983393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding a file named drawing_shapes.py to the project folder">
+      <option name="closed" value="true" />
+      <created>1779607132819</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779607132819</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initializing a surface for drawing_shapes.py file">
+      <option name="closed" value="true" />
+      <created>1779607180581</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779607180581</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Drawing a line on the surface using draw.line() function with parameters">
+      <option name="closed" value="true" />
+      <created>1779607373051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779607373051</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +154,11 @@
     <MESSAGE value="Adding .gitignore file to the project folder" />
     <MESSAGE value="Updating .gitignore for the project" />
     <MESSAGE value="Initializing a pygame environment and defining a display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing a pygame environment and defining a display" />
+    <MESSAGE value="Defining a loop to make the surface visible on the screen and exit on Quit" />
+    <MESSAGE value="Commiting unversioned files" />
+    <MESSAGE value="Adding a file named drawing_shapes.py to the project folder" />
+    <MESSAGE value="Initializing a surface for drawing_shapes.py file" />
+    <MESSAGE value="Drawing a line on the surface using draw.line() function with parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drawing a line on the surface using draw.line() function with parameters" />
   </component>
 </project>
