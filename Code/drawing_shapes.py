@@ -6,6 +6,12 @@ screen = pygame.display.set_mode((400,400))
 screen.fill("white")
 pygame.display.set_caption("Drawing shapes on surface")
 
+pygame.draw.line(screen, #surface
+                 "black", #color
+                 (0,0), #start position
+                 (400,400), #end position
+                 5 #width
+                 )
 done = True
 while done:
     for event in pygame.event.get():
