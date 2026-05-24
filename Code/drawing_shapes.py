@@ -19,6 +19,11 @@ pygame.draw.lines(screen,
                   [(100,100),(200,50),(300,100)],
                   4)
 
+pygame.draw.rect(screen,
+                 "red",
+                 (50,50,100,100),
+                 7)
+
 done = True
 while done:
     for event in pygame.event.get():
