@@ -12,7 +12,9 @@ x = 0
 y = 0
 rect_width = 50
 rect_height = 50
-velocity = 1
+velocity = 3
+
+clock = pygame.time.Clock()
 
 done = True
 while done:
@@ -32,5 +34,5 @@ while done:
 
     screen.fill("white")
     pygame.draw.rect(screen,"black",(x,y,rect_width,rect_height))
-
+    clock.tick(60)
     pygame.display.flip()
