@@ -24,7 +24,7 @@ while done:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_UP] and y > 0:
         y -= velocity
-    if keys[pygame.K_DOWN]:
+    if keys[pygame.K_DOWN] and y < screen_height-rect_height:
         y += velocity
     if keys[pygame.K_LEFT]:
         x -= velocity
