@@ -26,9 +26,9 @@ while done:
         y -= velocity
     if keys[pygame.K_DOWN] and y < screen_height-rect_height:
         y += velocity
-    if keys[pygame.K_LEFT]:
+    if keys[pygame.K_LEFT] and x > 0:
         x -= velocity
-    if keys[pygame.K_RIGHT]:
+    if keys[pygame.K_RIGHT] and x < screen_width - rect_width:
         x += velocity
 
     screen.fill("white")
