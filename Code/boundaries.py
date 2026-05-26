@@ -22,7 +22,7 @@ while done:
             done = False
 
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_UP]:
+    if keys[pygame.K_UP] and y > 0:
         y -= velocity
     if keys[pygame.K_DOWN]:
         y += velocity
