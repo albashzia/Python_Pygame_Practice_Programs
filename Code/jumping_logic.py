@@ -34,6 +34,19 @@ while done:
         x -= velocity
     if keys[pygame.K_RIGHT]:
         x += velocity
+    if keys[pygame.K_SPACE]:
+        is_jumping = True
+
+    if is_jumping:
+        if jump_height >= -10:
+            neg = 1
+            if jump_height < 0:
+                neg = -1
+            y -= (jump_height**2)*neg*0.5
+            jump_height -= 1
+        else:
+            jump_height = 10
+            is_jumping = False
 
     screen.fill("white")
     pygame.draw.rect(screen,"black",(x,y,rect_width,rect_height))
