@@ -16,6 +16,9 @@ velocity = 3
 
 clock = pygame.time.Clock()
 
+is_jumping = False
+jump_height = 10
+
 done = True
 while done:
     for event in pygame.event.get():
