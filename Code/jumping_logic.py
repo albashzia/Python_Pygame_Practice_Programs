@@ -6,7 +6,7 @@ screen_width = 500
 screen_height = 500
 
 screen = pygame.display.set_mode((screen_width,screen_height))
-pygame.display.set_caption("Key Events")
+pygame.display.set_caption("Jumping Logic")
 
 x = 0
 y = 0
