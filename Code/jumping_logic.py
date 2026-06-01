@@ -16,6 +16,7 @@ velocity = 3
 
 clock = pygame.time.Clock()
 
+#Defining Jump Control variables
 is_jumping = False
 jump_height = 10
 
@@ -35,16 +36,18 @@ while done:
     if keys[pygame.K_RIGHT]:
         x += velocity
     if keys[pygame.K_SPACE]:
-        is_jumping = True
+        is_jumping = True # setting is_jumping to true when space is pressed
 
     if is_jumping:
         if jump_height >= -10:
             neg = 1
             if jump_height < 0:
                 neg = -1
+            #logic to create a parabolic curve of jumping element
             y -= (jump_height**2)*neg*0.5
             jump_height -= 1
         else:
+            #reversing the jump variables to their initial state
             jump_height = 10
             is_jumping = False
 
