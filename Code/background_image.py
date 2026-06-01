@@ -3,8 +3,9 @@ import pygame
 pygame.init()
 
 screen = pygame.display.set_mode((300,300))
-screen.fill("white")
 pygame.display.set_caption("Background Image")
+
+bg_image = pygame.image.load("../Images/background_house.jpg")
 
 done = True
 while done:
@@ -12,5 +13,5 @@ while done:
         if event.type == pygame.QUIT:
             done = False
 
-    screen.fill("white")
+    screen.blit(bg_image,(0,0))
     pygame.display.flip()
